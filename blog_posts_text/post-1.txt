@@ -8,7 +8,7 @@ I have always followed new trends in technology closely but none have ever inspi
  time. I have been researching the market for a long time to decide what 3d printer I should buy. Without a lot of money in my budget I have settled on a\
  DIY 3d printer kit. The kit I chose has a strong community built around it which I am hoping will help when things inevitably go up in smoke..hopefully not literally!. The Tevo Black Widow,\
  available from AliExpress, has a strong hobbyist community built up around it and appears to be capable..in the right hands..of producing accurate 3d prints.\
-<center><img text-align=\"center\" src=\"./pictures/base/widow.jpg\" alt=\"Tevo Black Widow\" style=\"width:50%\" style=\" left: 50%\" style=\"top:5%\"></center>\
+<center><img text-align=\"center\" src=\"./Pictures/base/widow.jpg\" alt=\"Tevo Black Widow\" style=\"width:50%\" style=\" left: 50%\" style=\"top:5%\"></center>\
 <p> When my order arrived it took the guts of a weekend to build. The instructions were relatively unclear but with the aid of the 3d printing community and some\
  youtube videos the Black Widow was up and running!\
 <!R!>\
@@ -23,7 +23,7 @@ I have always followed new trends in technology closely but none have ever inspi
 <p> Step 2. Level your printer bed properly..all you need is a sheet of paper and some patience. Google how to do this..It's very simple but will have the greatest effect on the results you get\
 <p> Step 3. Print some callibration files. Grab a 20 mm callibration cube from thingiverse. Load it onto your printer and measure the results.. This print will help you determine if the x,y and z motors are\
  callibrated properly. If the sides dont measure 20 mm you can adjust your motor steps to ensure it will print properly the next time. Each side will correspond to a motor axis.\
-<p><center><img text-align=\"center\" src=\"./pictures/base/c_cube.jpg\" alt=\"Calibration Cube\" style=\"width:50%\" style=\" left: 50%\" style=\"top:5%\"></center>\
+<p><center><img text-align=\"center\" src=\"./Pictures/base/c_cube.jpg\" alt=\"Calibration Cube\" style=\"width:50%\" style=\" left: 50%\" style=\"top:5%\"></center>\
  <p>  Vertical edge = Z axis\
   Left-Right Edge = X axis\
   Front-Back Edge = Y axis\
