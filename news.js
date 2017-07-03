@@ -1,0 +1,1 @@
+document.write("\<marquee behavior=\"scroll\" direction=\"left\">Welcome to Additive Inspiration!! Please visit the page and read - expect great things from this site!!!</marquee>");

@@ -1,0 +1,17 @@
+#SETUP ------------------------------------------------
+import sys, time, os
+
+from os import listdir
+from os.path import isfile, join
+#------------------------------------------------------
+# Gather User Input
+#------------------------------------------------------
+post_no = input("\nBlog Post Number:")
+index_no = input("\nIndex Number: ")
+#------------------------------------------------------
+template_index = "./template_index.html"
+
+index_file = open('./' +template_index,'r')
+index_file_tmp = open('./index-' + index_no + '.html','w')
+
+
