@@ -1,5 +1,5 @@
 document.write("\
-<div class=\"w3-card-4 w3-margin w3-white\">\
+<div class=\"w3-card-4 w3-margin w3-white\" style=\"border: solid 3px #954955;\">\
 <div class=\"w3-row w3-padding w3-dark-gray\" style=\"width:100%\" width = \"200\"  >\
 <div class=\"w3-container\"><p>\
 <h3><b><!TITLE!></b></h3>\
