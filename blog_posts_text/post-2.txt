@@ -1,9 +1,17 @@
-<!TITLE!>My Second Print\
-<!DATE!> 30th June 2017\
-<!TEXT!> Filler Text\
-temp\
-temp\
-temp\
+<!TITLE!>Make your own custom chess set: Scan and Print!\
+<!DATE!> 05th July 2017\
+<!TEXT!> This post is a little bit more advanced: but it should be cheap and accessible to most of the people reading\
+ this blog. We are going to make a customised chess set...where this project gets a little bit more interesting centers around\
+ how we are going to create the models for each chess piece! All you will need is: <p> - A Kinect, the old x-box 360 version with a\
+ usb/power adapter (Version 1)\
+ <p><center><img text-align=\"center\" src=\"./Pictures/base/kinect.jpg\" alt=\"Kinect Sensor\" style=\"width:50%\" style=\" left: 50%\" style=\"top:5%\"></center>\
+ <p> - A 3d Printer <p> - A spinning platform (Office chair works best)<p> - 32 Friends.<p>\
+ <p><center><img text-align=\"center\" src=\"./Pictures/base/scanning.jpg\" alt=\"Scanning a friend\" style=\"width:50%\" style=\" left: 50%\" style=\"top:5%\"></center>\
+<p> So follow along and I promise you won't be disappointed! The final chess pieces are really amazing for the low cost of this project. The following is a Rook, The kind of model you can expect if you follow\
+ this post - only your version could have your granny, mum or even yourself staring back at you!<p>\
+ <p><center><img text-align=\"center\" src=\"./Pictures/base/scan1.jpg\" alt=\"Example Scan\" style=\"width:30%\" style=\" left: 50%\" style=\"top:5%; bottom:50%\">\t<img text-align=\"center\" src=\"./Pictures/base/remi.jpg\" alt=\"Example Scan\" style=\"width:30%\" style=\" left: 50%\" style=\"top:5%; bottom:50%\">\t<img text-align=\"center\" src=\"./Pictures/base/scan2.jpg\" alt=\"Example Scan\" style=\"width:30%\" style=\" left: 50%\" style=\"top:5%\"></center>\
+ <p>\
+\
 <!R!>\
 hello\
 hello\
