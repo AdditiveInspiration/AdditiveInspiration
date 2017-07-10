@@ -16,7 +16,7 @@ document.write("\
  <p><center><img text-align=\"center\" src=\"./Pictures/base/kinect.jpg\" alt=\"Kinect Sensor\" style=\"width:50%\" style=\" left: 50%\" style=\"top:5%\"></center>\
  <p> - A 3d Printer <p> - A spinning platform (Office chair works best)<p> - 32 Friends.<p>\
  <p><center><img text-align=\"center\" src=\"./Pictures/base/scanning.jpg\" alt=\"Scanning a friend\" style=\"width:50%\" style=\" left: 50%\" style=\"top:5%\"></center>\
-<p> So follow along and I promise you won't be disappointed! The final chess pieces are really amazing for the low cost of this project. The following is a Rook, The kind of model you can expect if you follow\
+<p> So follow along and I promise you won\'t be disappointed! The final chess pieces are really amazing for the low cost of this project. The following is a Rook, The kind of model you can expect if you follow\
  this post - only your version could have your granny, mum or even yourself staring back at you!<p>\
  <p><center><img text-align=\"center\" src=\"./Pictures/base/scan1.jpg\" alt=\"Example Scan\" style=\"width:30%\" style=\" left: 50%\" style=\"top:5%; bottom:50%\">\t<img text-align=\"center\" src=\"./Pictures/base/remi.jpg\" alt=\"Example Scan\" style=\"width:30%\" style=\" left: 50%\" style=\"top:5%; bottom:50%\">\t<img text-align=\"center\" src=\"./Pictures/base/scan2.jpg\" alt=\"Example Scan\" style=\"width:30%\" style=\" left: 50%\" style=\"top:5%\"></center>\
  <p>\
