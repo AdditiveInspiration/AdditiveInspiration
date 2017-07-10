@@ -83,7 +83,7 @@
 \
 <p>Now, select the scanned model and transform it. The inside gray box in the transform controls will allow you to scale the model. Reduce the size so that it will fit on top of the castle base. I also scaled the top of the castle so that it would fit more like a hat. I then rotated and positioned it on to of the scanned model like a hat.\
 \
-<p>I decided to cut off more of the shoulders to make the body of the scanned model fit more naturally with the castle body. When you are happy with the positioning and composition of the model simply select all pieces by shift clicking each shell in the object browser menu. In the edit menu there will be a submenu "\Combine\" Select it to turn it into one fixed model.\
+<p>I decided to cut off more of the shoulders to make the body of the scanned model fit more naturally with the castle body. When you are happy with the positioning and composition of the model simply select all pieces by shift clicking each shell in the object browser menu. In the edit menu there will be a submenu \"Combine\" Select it to turn it into one fixed model.\
 \
 <p>Click Export on the bottom left button and save the file as one complete stl file. This file can be opened in cura and gcode can be generated to run on your 3d printer!\
 \
