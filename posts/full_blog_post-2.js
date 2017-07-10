@@ -95,10 +95,7 @@ document.write("\
 <p>I decided to cut off more of the shoulders to make the body of the scanned model fit more naturally with the castle body. When you are happy with the positioning and composition of the model simply select all pieces by shift clicking each shell in the object browser menu. In the edit menu there will be a submenu \"Combine\" Select it to turn it into one fixed model.\
 \
 <p>Click Export on the bottom left button and save the file as one complete stl file. This file can be opened in cura and gcode can be generated to run on your 3d printer!\
-\
-\
-\
-\
+ \
 <div class=\"w3-row\">\
 <div class=\"w3-col m8 s12\">\
 <form method=\"get\" action=\"../index.html\">  <p><button class=\"w3-button w3-padding-large w3-white w3-border\"><b>Back</b></button></p></form>\
