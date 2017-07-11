@@ -20,10 +20,40 @@ I have been experimenting with the 3d printer a lot. It is a fantastic tool to m
  fixing the z axis (height) to the focal length of the laser will allow you to etch most materials with computer precision. THIS POST IS A LITTLE MORE DANGEROUS SO DO NOT TRY THIS IF YOU\
  DONT KNOW WHAT YOU ARE DOING. I TAKE NO RESPONSIBILITY FOR ANY EYE INJURIES\
   <p><center><img text-align=\"center\" src=\"./Pictures/base/b3p1.jpg\" alt=\"Scanning a friend\" style=\"width:50%; max-width:400px;\"  style=\" left: 50%\" style=\"top:5%\"></center><p>\
+ <p>\
 \
-<p>\
 \
-\\
+\To start, think of what you want to achieve by adding a laser to your 3d printer. That includes choosing a laser capable of etching or cutting select materials. I wanted to be able to etch and engrave wood at the very least but I had no interest in engraving metal or glass.\
+ I started by looking at different lasers available for sale, with some experience with lasers in a research capacity I understood the theory behind them and the properties that would effect the end capabilities. This tutorial is written for a Tevo black widow with an mks board. That is not to say\
+ it will not work on other 3d printer boards - but if you do use another board or setup ensure that you fully understand the electronics, laser properties and reasoning for certain choices that I have made.<p>\
+ <p><h3>Step 1. Purchasing Materials </h3><p>\
+ The laser you chose to buy, first and foremost, has to be capable of running off the 3d printer power supply. This ensures minimal modifications to the system. In order to etch different shades into wood the 3d printer board has to have some way of controlling the laser output. If you have\
+ ever used an external layer cooling fan you will be aware that the speed of this fan can be set between 0 and 255 at any point in the print using g-code. The fan can be set to 256 discreet values between 0 volts and 12 V with the upper value setting the fan to top speed.\
+ We will want a laser capable of runnign off 12 Volts.. a laser diode on its own would not be sufficient but fortunately enough most lasers come with a driver circuit to regulate power input.\
+ <p> The frequency of the laser light is another important aspect to your choice. On the spectrum of light, Red is a high wavelength/low frequency band of light. The lower the frequency the less energy will be in the beam. It is clear on the the chart below the relationship between wavelength and energy.\
+ <p><center><img text-align=\"center\" src=\"./Pictures/base/b3p3.jpg\" alt=\"Spectrum of Light\" style=\"width:50%; max-width:400px;\"  style=\" left: 50%\" style=\"top:5%\"></center>\
+  For laser engraving it is desirable that we pack as much power/energy into the laser beam in a small area. A low wavelength purple laser powered by only 500 mW is capable of engraving as well as a much larger >1W red laser. It is for this reason that I chose a blue/purple 405 nm laser. I wanted the laser to fit\
+  in as small an area as possible and I did not want the hastle of having to add extra power supply.\
+  <p><center><img text-align=\"center\" src=\"./Pictures/base/b3p1.jpg\" alt=\"Laser Diode\" style=\"width:50%; max-width:400px;\"  style=\" left: 50%\" style=\"top:5%\"></center>\
+  You can buy the laser I got from AliExpress at the link <a href=\"http://s.aliexpress.com/jm22aq6f\">HERE</a>. I want to stress that I am not affiliated with the seller, I just bought this and found the seller reliable..which is not always the case on aliexpress.\
+  <p>\
+  <h3>Step 2: Planning the design</h3>\
+  <p> Everyone\'s 3d printer is a little bit different. Any upgrades can change the layout and positioning of the entire structure. This modification is no different. You may need to customise things to suit your own needs. I am a big fan of modular designs...this means that I like each component/upgrade/etc to act as a discreet block which can be removed and added in a simple way. There should be as little setup as possible.\
+   Feature List:<p> I will NEVER need to 3d-print while laser engraving or vice versa.<p> I will still want to be able to use my external cooling fan while I am 3d printing. <p> I never want the laser to turn on accidentally while 3d printing.<p>\
+   With these features in mind I set to work planning my design. On the black widow I attached a cable from the mks board +/- terminals and ran it up to the extruder. The terminal for the external fan is just below the main board power supply on the right hand side of the board.\
+   <p><center><img text-align=\"center\" src=\"./Pictures/base/b3p4.jpg\" alt=\"mksgen\" style=\"width:50%; max-width:400px;\"  style=\" left: 50%\" style=\"top:5%\"></center><p>\
+   I am very deliberately not marking the exact location of the port on the image above..this is to encourage you to inpect the board yourself. It should be one of the green screw top terminals. Ensure that the black negative wire goes to the - terminal and the red positive wire goes to the + terminal.\
+   The black widow cables running from the control box all end in a female connector. You should order one of these to attach to the two wires of the cable you just wired up. You might have one spare from building the black widow. Any female 2 pin connector will do as long as it has an adequate power rating. The laser module I bought came with two male 2 pin connectors. The female connector running to teh mks board will accept input from either an external cooling fan or the laser module.\
+   The laser should be plugged in when you want to use the laser engraver and the external cooling fan should be plugged in when you want to do some 3d printing. To be safe, I plugged the external fan in which was mounted on the main carriage. I switched on the printer and selected control->temperature->fan speed. Setting the fan speed should make the fan run at different rates. This will prove that the board is operational and supplying voltage correctly. When you select the fan speed manually you are actually executing a gcode command which sets the rate of the fan.\
+   A simple program will be used to generate gcode which will set the laser power and move the x and y carriage. ENSURE YOU WEAR SAFETY GLASSES WHENEVER THE LASER IS SWITCHED ON.<p>\
+   The next step will be to measure the laser module and design a secure removable holder for the laser. I designed a box for the laser which measures 40 mm x 40 mm. This is slightly too large for the laser module. A case which is too small will never fit where a case which is too large can be made secure with additional padding.\
+   I designed the case to clip on to the printer securely and fit on the carriage. I will include a link to thingiverse where I have uploaded the file I used but you may choose to design your own mount to fit your printer. Ensure the laser fits onto the carriage but does not drop below the extruder. Otherwise, you will need to completely remove the printer whenever you want to 3d print anything.\
+   <p><center><img text-align=\"center\" src=\"./Pictures/base/b3p6.jpg\" alt=\"Laser Mounted\" style=\"width:50%; max-width:400px;\"  style=\" left: 50%\" style=\"top:5%\"></center>\
+ \
+ \
+ \
+ \
+\
 \
 \
 <div class=\"w3-row\">\
