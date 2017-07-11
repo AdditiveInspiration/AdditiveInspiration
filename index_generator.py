@@ -36,7 +36,7 @@ for line in index_file:
         
         while(i <= post_range_high):
             
-            n_blog_post_collection = n_blog_post_collection + '\n <script src="./blog_posts/blog_post-' + str((post_range_high - (i-1))) + '.js"></script>'      
+            n_blog_post_collection = n_blog_post_collection + '\n <script src="./blog_posts/blog_post-' + str(i) + '.js"></script>'      
             i = i+1
             
             
