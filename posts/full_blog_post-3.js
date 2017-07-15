@@ -52,7 +52,7 @@ I have been experimenting with the 3d printer a lot. It is a fantastic tool to m
    The next step will be to measure the laser module and design a secure removable holder for the laser. I designed a box for the laser which measures 40 mm x 40 mm. This is slightly too large for the laser module but ensures the laser will fit. Add some extra padding if there is too much wiggle room.\
    I designed the case to clip on to the printer securely and fit on the carriage. I will include a link to thingiverse where I have uploaded the file I used but you may choose to design your own mount to fit your printer. Ensure the laser fits onto the carriage but does not drop below the extruder. Otherwise, you will need to completely remove the printer whenever you want to 3d print anything.\
    <p><center><img text-align=\"center\" src=\"./Pictures/base/b3p6.jpg\" alt=\"Laser Mounted\" style=\"width:50%; max-width:400px;\"  style=\" left: 50%\" style=\"top:5%\"></center>\
-  <h3>Step 3: Creating g-code for a laser engraver<\h3><p>\
+  <h3>Step 3: Creating g-code for a laser engraver</h3><p>\
   The 3d printer needs instructions capable of running the newly mounted laser. The g-code should instruct the laser to move along the x and y access and vary the light intensity of the laser.\
   Luckily, this is easy to do with the correct software. The first thing you will need is a vectorised image program called inkscape. Inkscape allows images, text and drawings to be converted into a format which can be used on the 3d printer. There are just a few settings and extensions that you will require to get going.\
   <p> Inkscape can be found here:<a href=\"https://inkscape.org/en/download/windows/\">Inkscape</a><p>\
@@ -62,7 +62,7 @@ I have been experimenting with the 3d printer a lot. It is a fantastic tool to m
  <p><center><img text-align=\"center\" src=\"./Pictures/base/b3p13.jpg\" alt=\"Inkscape\" style=\"width:50%; max-width:400px;\"  style=\" left: 50%\" style=\"top:5%\"></center><p>\
   The tool has to be configured to create code for your particular machine. As you can see in the picture I have selected the laser ON command to be m106. This is the gcode command to switch on the external fan on the 3d printer board. If you select a different port look up the appropriate gcode commands to control it and enter it in place of m106. When the gcode command for my setup is processed it will read \"m106 <LASER POWER 0-255>;\"<p> \
   The next setting is the laser Off command. I simply selected this to be m106 0;. This simply sends in a 0 value to the laser, effectively switching it off.\
-  <p> Travel speed can be set to whatever you like. The higher it is, the faster the carriage will travel while the laser is off. Set it to a value around 600. If it is too high it may dislodge your laser of cause vibration in any laser etching.<p>\
+  <p> Travel speed can be set to whatever you like. The higher it is, the faster the carriage will travel while the laser is off. Set it to a value around 600. If it is too high it may dislodge your laser and cause vibration in any laser etching.<p>\
   <p> Laser Speed is more important. This controls the speed the laser moves at while it is turned on. If this is set too low it will cause burning, if it is too high it will not properly etch the material. Experiment to find the right value for each type of material you use.<p>\
   Set 255 in the laser power option. This will set the range of values the laser can be set at, the fan speed can only be set between 0 and 255, so ensure you set this properly from the beginning. The rest of the settings are explained on the extension website (and are pretty self explanatory). Play around with settings, especially when trying new materials!.<p>\
   Now that the extension is ready to use, all we need to do is get some text/images etc to actually engrave! I will show you how to encode in text and a simple image but nearly everything can be converted to laser comaptible gcode. \
@@ -72,8 +72,12 @@ I have been experimenting with the 3d printer a lot. It is a fantastic tool to m
   Once you are happy, prepare to convert the laser into gcode. Select the text using the arrow tool on the left bar. Select Path > Object to Path. Now, ensuring  the text is still selected, click apply on the laser gcode extension box. If successful the pattern shown in the image below will surround the text and a gcode file will be created at the specified file path.  \
   <p><center><img text-align=\"center\" src=\"./Pictures/base/b3p15.jpg\" alt=\"Generating code\" style=\"width:50%; max-width:400px;\"  style=\" left: 50%\" style=\"top:5%\"></center><p>\
   Simply put the code on an sd card and run it like any other gcode file from your 3d printer slicer software. You will need to focus the laser first before you run the code.\
+ <p><h3> Step 4: Focussing the laser and using the g-code</h3><p>\
+ Fix some wood or cardboard to your build plate to protect the surface of your printer. Put on your safety glasses and turn on your printer. In the \"control\" menu navigate to \"temperature\" and set the external fan speed to around 10. This should be enough to switch the laser on without burning anything. Then navigate to the \"prepare\ menu and select \"move axis\". Use the menu to move the z axis up and down. You should be able to find the height at which the laser is focussed on the wooden or cardboard build plate. Increase the z axis by the height of whatever you will be engraving. Navigate back to the fan control and turn the laser off.<p>\
+ Securely fix any object to the build plate..start simple with cardboard. Now, slect the printer to run the gcode you prepared earlier.It should start etching the text you drew in inkscape!\
+ <p><center><img text-align=\"center\" src=\"./Pictures/base/b3p16.jpg\" alt=\"Result\" style=\"width:50%; max-width:400px;\"  style=\" left: 50%\" style=\"top:5%\"></center><p>\
+ Play around with the settings in the gcode creator settings and try out different materials. I found that increasing the laser speed increased the resolution of what I was engraving. \
  \
-  \
 \
 \
 <div class=\"w3-row\">\
