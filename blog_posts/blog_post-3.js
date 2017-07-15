@@ -19,8 +19,11 @@ I have been experimenting with the 3d printer a lot. It is a fantastic tool to m
  3d printers are composed of a hot end, extruder and a way to move a carriage along the x, y and z axis. Simply adding a laser module to the moving carriage and\
  fixing the z axis (height) to the focal length of the laser will allow you to etch most materials with computer precision. THIS POST IS A LITTLE MORE DANGEROUS SO DO NOT TRY THIS IF YOU\
  DONT KNOW WHAT YOU ARE DOING. I TAKE NO RESPONSIBILITY FOR ANY EYE INJURIES\
-  <p><center><img text-align=\"center\" src=\"./Pictures/base/b3p1.jpg\" alt=\"Scanning a friend\" style=\"width:50%; max-width:400px;\"  style=\" left: 50%\" style=\"top:5%\"></center><p>\
- <p>\
+  <p><center><img text-align=\"center\" src=\"./Pictures/base/b3p1.jpg\" alt=\"Laser\" style=\"width:50%; max-width:400px;\"  style=\" left: 50%\" style=\"top:5%\"></center><p>\
+ <p>Some simple examples are shown below!\
+\<p><center><img src=\"./Pictures/base/b3p10.jpg\" alt=\"Laser sample 1\" style=\"width:27%; max-width:400px;\"   style=\"top:5%\">\
+ \<img src=\"./Pictures/base/b3p11.jpg\" alt=\"Laser sample 2\" style=\"width:27%; max-width:400px;\"  style=\"top:5%\">\
+ \<img src=\"./Pictures/base/b3p12.jpg\" alt=\"Laser sample 3\" style=\"width:27%; max-width:400px;\"   style=\"top:5%\"></center><p>\
 \
 \
 \
