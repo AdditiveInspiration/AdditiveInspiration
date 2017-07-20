@@ -51,8 +51,10 @@
  
   h1{
 	 font-family: "Raleway", sans-serif;
-	 animation-name:pulse; animation-duration:3s; animation-iteration-count:infinite;
+	 
 	 }
+     
+     h1:hover{animation-name:pulse; animation-duration:3s;}
  
      body,  h2, h4, h5 {
           font-family: "Raleway", sans-serif
