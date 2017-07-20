@@ -1,0 +1,90 @@
+document.write("\
+<div class=\"w3-card-4 w3-margin w3-white\" style=\"border: solid 3px #954955;\">\
+<div class=\"w3-row w3-padding w3-dark-gray\" style=\"width:100%\" width = \"200\"  >\
+<div class=\"w3-container\"><p>\
+<h3><b>3d Printing: Where to start? Part 1\
+</b></h3>\
+<h5>3d Printing <span class=\"w3-opacity\"> 17th July 2017\
+</span></h5>\
+</div></div>\
+<div class=\"w3-container\">\
+<p>\
+<!TEXT!><p><p>\
+  I have decided to write a beginners guide to 3d printing. I think it is a common trend that people\
+  will buy a 3d printer with great intentions only to abandon it when things start to go wrong! There have been so many times\
+  that I have wanted to throw my printer out a window! Failed prints become less frequent with experience but I think a simple guide could help to reduce the learning curve.<p>\
+  With that being said, from my experience, I think there is a lot of advice and support available which can help overcome nearly every issue with\
+  3d printing that any beginner might encounter. Taking time to calibrate every 3d printer can make a huge difference in the quality of results. I will try to make this guide general so it can be applicable\
+  to as many 3d printers as possible.\
+  <p><center><img text-align=\"center\" src=\"./Pictures/base/b4p1.jpg\" alt=\"3d printing problems\" style=\"width:50%; max-width:400px;\"  style=\" left: 50%\" style=\"top:5%\"></center>\
+  This will cover:<p>FILAMENT, CALIBRATION, TEMPERATURE, SIMPLE PRINTS<p>\
+  \
+  <p>\
+  <h3><b>Starting your first print</b></h3>\
+  <p>Where to start? It is a valid question. If you have just bought a new printer it is likely that you will be pretty unsure of what to do next. \
+  The first thing you should do is read your printers manual! It seems simple...and no one likes to read the manual but it is nearly essential to get the best out of your machine. Every 3d printer manufacturer should supply you with a starting guide, not all the information will be relevent but there will be some design choices they will have made\
+  that will completely change how your printer works. <p>\
+  <h4><b>What type of filament should I use?</b></h4><p>\
+  Once again..a question with a lot of answers. You will need to figure out the size of the filament your printer takes. The printer I have takes 1.75 mm filament. When you go to buy filament the size should be listed beside the name. If you buy the wrong size it will not and should not work in your printer.\
+  <p> Now that you know what size filament you will need, you need to figure out what type of filament material you should buy. I have tried a lot of different types of filament...all have their advantages and disadvantages. All filaments will require different temperatures - ABS for example will require a heated bed surface in order to properly adhere. \
+  Try to figure out what you will need your 3d prints to do before you select your filament.<p><h5><b>PLA (POLYLACTIC ACID)</b></h5><p> PLA is probably the easiest material to print with. It is a natural and biodegradable plastic which suits most users 3d printing needs very well. It doesnt require a heated build plate(which some printers won\'t have) and is very easy to print with. It is great for simple models and applications that don\'t require much strength. PLA is annoyingly brittle and will not fair great in applications requiring much mechanical strength! I recommend every beginner in 3d printing to experiment and work with PLA first and then move on to more dvanced materials. It will not smell or produce any hazardous fumes while it is printing. \
+  <p> Easy to print: Yes<p>\r\n\t\t\t Requires Heated Bed: No<p>\r\n\t\t\t Mechanical Strength: Brittle\t\t\t\r\n<p> Temperature Resistance: Low\
+  <p><center><img text-align=\"center\" src=\"./Pictures/base/b4p2.jpg\" alt=\"PLA selection\" style=\"width:50%; max-width:400px;\"  style=\" left: 50%\" style=\"top:5%\"></center>\
+  <p><b>Suggested Settings: Build Plate: 35C Nozzle: 200C</b><p>\
+  <p><h5><b>ABS (Acrylonitrile butadiene styrene)</b></h5>\
+  <p> ABS is considerably more difficult to print with. It requires higher temperatures and a heated build plate. Otherwise it will not extrude properly and will not stick to the build plate. That being said it is much stronger than PLA and will be able to withstand harsh weather conditions. It is less brittle and more difficult to break. ABS will smell as it is printing and should only be printed in a well ventilated space. It can be treated with acetone to give it a smooth finish.\
+  <p> Easy to print: No<p>\r\n\t\t\t Requires Heated Bed: Yes<p>\r\n\t\t\t Mechanical Strength: Strong\t\t\t\r\n<p> Temperature Resistance: High\
+  <p><center><img text-align=\"center\" src=\"./Pictures/base/b4p3.jpg\" alt=\"abs\" style=\"width:50%; max-width:400px;\"  style=\" left: 50%\" style=\"top:5%\"></center>\
+  \<p>(ABS is what lego bricks are made of!)<p>\
+  <p><b>Suggested Settings: Build Plate: 65C Nozzle: 240C</b><p>\
+  <h5><b>PETG</b></h5><p>\
+  PETG is a great material to print with! It is less brittle and more resistant to wearing of all types. It lends itself to some great food products because generally it is conidered food and drink safe! You might be asking why would anyone choose PLA if PETG is available? The simple answer is price...it typically costs about twice that of PLA. It also requires a heated build plate and higher temperatures than PLA.\
+  If you can afford it or find it on sale I would really recommend it! It is a great option and a good evolution when you are looking for better durability!\
+  <p><center><img text-align=\"center\" src=\"./Pictures/base/b4p4.jpg\" alt=\"PETG selection\" style=\"width:50%; max-width:400px;\"  style=\" left: 50%\" style=\"top:5%\"></center>\
+  <p><b>Suggested Settings: Build Plate: 60C Nozzle: 260C</b><p>\
+  <p><b> Calibrating Temperature:</b><p>\
+  It is important to remember that there can be great variation in filaments between filament manufacturers.\
+  Try to print small test prints whenever you use a new filament to check the optimal settings for that filament. The temperature calibration test print can\
+  be a great help when trying to adjust settings for different filaments.<p>\
+  The stl for a simple temperature tower stl can be found here <a href=\"https://www.thingiverse.com/thing:915435\">TEMPERATURE TOWER</a>. It comes with instructions to have your printer change the temperature at different sections of the print. Visually you will be able to see how the temperature effects the print quality.\
+  <p><center><img text-align=\"center\" src=\"./Pictures/base/b4p5.jpg\" alt=\"temperature tower\" style=\"width:50%; max-width:400px;\"  style=\" left: 50%\" style=\"top:5%\"></center>\
+  <p><h4><b> What should I print?</b></h4><p>\
+  It can be difficult to figure out what to print first. Assuming your printer is set up properly and in working order I have a few recommendations.\
+  A callibration cube can help you to understand where any quality issues with your printer arise from. The callibration cube can be downloaded from thingiverse. It is a simple cube which is 20mm x 20 mm x 20 mm. It is marked with an x, y or z on the faces which correspond to each axis.\
+  If there are lines, vibrations or problems on only one place it can be quick to visually identify the control axis/motor etc where the problem is occuring. Narrowing down and isolating any problems with your prints can make them considerably easier to fix!\
+  <p>\The calibration cube can be found here: <a href=\"https://www.thingiverse.com/thing:1278865\">Calibration Cube</a><p>\
+  <p><center><img text-align=\"center\" src=\"./Pictures/base/b4p6.jpg\" alt=\"calibration cube\" style=\"width:50%; max-width:400px;\"  style=\" left: 50%\" style=\"top:5%\"></center>\
+  You should use a digital callipers to measure the edge of each side of the cube. In the advanced settings of your printer you should be able to set the steps per mm of your printer. To callibrate and improve the motor accuracy\
+  simply use the following equation to set the x,y and z steps. Eg. New Xsteps = (actual value measured (mm)) / 20mm x old Xsteps value. Do this for each axis to ensure the motors of your printer are properly callibrated.\
+  <p> Similarly, to set the extruder steps mark 100 mm of filament and set the printer to manually extrude 100mm of filament. New Esteps = actual length of extruded filament / 100mm * old Estep value.\
+  <p><h4><b>Easy beginners prints:</b></h4><p>\
+  <p><a href=\"https://www.thingiverse.com/thing:1706431\">Benchy Ship link</a>\
+  <p><center><img text-align=\"center\" src=\"./Pictures/base/b4p7.jpg\" alt=\"benchy\" style=\"width:50%; max-width:400px;\"  style=\" left: 50%\" style=\"top:5%\"></center>\
+  \
+  <p><a href=\"https://www.thingiverse.com/thing:1681756\">Low polygon bulbasaur</a>\
+  <p><center><img text-align=\"center\" src=\"./Pictures/base/b4p8.jpg\" alt=\"bulbasaur\" style=\"width:50%; max-width:400px;\"  style=\" left: 50%\" style=\"top:5%\"></center>\
+  \
+   <p><a href=\"https://www.thingiverse.com/thing:257911\">Elephant with moving joints</a>\
+  <p><center><img text-align=\"center\" src=\"./Pictures/base/b4p9.jpg\" alt=\"elephant\" style=\"width:50%; max-width:400px;\"  style=\" left: 50%\" style=\"top:5%\"></center>\
+  <p>\
+  These prints are all relatively quick and easy to print! Follow the settings described on thingiverse. The next post will show you how to turn these stl files into gcode and continue developing on some key principles!<p>\
+  \
+  \
+  \
+  \
+  \
+\
+\
+<div class=\"w3-row\">\
+<div class=\"w3-col m8 s12\">\
+<form method=\"get\" action=\"../index-1.html\">  <p><button class=\"w3-button w3-padding-large w3-white w3-border\"><b>Back</b></button></p></form>\
+</div>\
+<p>\
+<p>\
+<div id=\"HCB_comment_box\"><a href=\"http://www.htmlcommentbox.com\">Comment Box</a> is loading comments...</div>\
+<link rel=\"stylesheet\" type=\"text/css\" href=\"//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0\" />\
+<script type=\"text/javascript\" id=\"hcb\"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement(\"script\"), l=hcb_user.PAGE || (\"\"+window.location).replace(/'/g,\"%27\"), h=\"//www.htmlcommentbox.com\";s.setAttribute(\"type\",\"text/javascript\");s.setAttribute(\"src\", h+\"/jread?page=\"+encodeURIComponent(l).replace(\"+\",\"%2B\")+\"&opts=16862&num=10&ts=1495298126351\");if (typeof s!=\"undefined\") document.getElementsByTagName(\"head\")[0].appendChild(s);})(); /*-->*/ </script>\
+<p>\
+</div>\
+</div>\
+</div>");
