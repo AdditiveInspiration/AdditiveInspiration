@@ -39,7 +39,13 @@ document.write("\
   The layer height will set the movement of the z axis (vertical) on each layer. This will effect the resolution of your model. Setting a smaller value (0.1mm) will reduce the layer lines and get rid of the banding effects frequently seen during 3d prints. It will increase the print time, however, so for functional simple prints increase the value to >0.2mm. Avoid setting the value above 0.3mm, higher values will increase the chances of layers failing to stick and the print could come apart in your hands! Similarly, the lowr values will be limited by the nozzle size of your printer. If your printer nozzle is 0.4 mm then do not set the layer height below this value to avoid all sorts of problems with your print.\
   <p><h5><b>Supports</b></h5><p>\
   The supports setting determines if supports will be generated for the model. Angled overhangs which would be impossible to print in thin air will be supported by automatically generated plastic supports. They can easily be broken off but can occasionally scar the surface of the model. Try to design models in such a way that you avoid major overhangs. If you have angled overhangs which are greater than 45 degrees you should enable supports to prevent a failed print.\
-  \
+  <p><b><h4>How do I make a custom design?</h4></b><p>\
+  It is a great feeling when you download and print your first model...but it is one hundred times more satisfying to design and print your own model. To fully explore design for 3D printing would take another post but I will try to detail the software and tehniques I use to create custom models.<p>\
+  <h5><b>3D Design</b></h5>\
+  Fusion 360 is fantastc modelling programme. It allows you to create all sorts of designs using a very intuitive UI..what makes it even better is that it is free to students and hobbyists. Download Fusion 360 from <a href=\"https://www.autodesk.com/products/fusion-360/students-teachers-educators?mkwid=s|pcrid|207698365128|pkw||pmt|b|pdv|c|&&gclid=CObC_tH_l9UCFUmx7Qody6oD4w\">Here</a>. I will most likely do some future posts on how to use it..but for now google some tutorials to figure it out!<p>\
+  Fusion 360 will allow you to create and export stl files. An STL is a filetype describing a mesh constructed from the design you created. Sometimes you will need to work with other pre-made stl files. Customising and mergin stl files is difficult if not impossible in fusion 360. I use meshmixer for that. It allows you to combine multiple stl files and perform all sorts of operations on them. It allows for more artistic designs because of the addition of sculpting tools.<p>\
+  You can find meshmixer <a href=\"http://www.meshmixer.com/download.html\">Here</a><p>\
+  Hopefully I have given you some useful information which will help you get up and running with a new 3D printer! Check back regularly for updatges and more projects!\
 \
 \
 <div class=\"w3-row\">\
