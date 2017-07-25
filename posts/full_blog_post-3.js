@@ -82,7 +82,7 @@ I have been experimenting with the 3d printer a lot. It is a fantastic tool to m
 \
 <div class=\"w3-row\">\
 <div class=\"w3-col m8 s12\">\
-<form method=\"get\" action=\"../index-1.html\">  <p><button class=\"w3-button w3-padding-large w3-white w3-border\"><b>Back</b></button></p></form>\
+<form method=\"get\" action=\"../index.html\">  <p><button class=\"w3-button w3-padding-large w3-white w3-border\"><b>Back</b></button></p></form>\
 </div>\
 <p>\
 <p>\
